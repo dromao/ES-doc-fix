@@ -48,7 +48,7 @@ The build service account `<Project> Build Service (<Organization>)` must have t
 
 ### Configure branch policies
 
-In order for the pull pipeline to run, set the `main` branch to require build verification.
+In order for the push pipeline to run, set the `main` branch to require build verification.
 
 https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies
 
